@@ -41,7 +41,6 @@ def start_game(player0Score, player1Score, round, gameRound):
     tankGroup.add(tank1)
 
     # 玩家0和1 的炮弹设置：初始为普通炮弹，最多4发，速度为4
-    # bulletGroup = pygame.sprite.Group()
     interval = 100  # 炮弹发射的最短间隙
     maxBulletNum = 4
     bulletGroup = BulletGroup(maxBulletNum, interval=interval)
